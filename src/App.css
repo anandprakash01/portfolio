@@ -16,7 +16,8 @@
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
-  --theme-yellow-color: #f4ce14;
+  /* --theme-yellow-color: #f4ce14; */
+  --theme-yellow-color: #ffdb00;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -105,6 +106,7 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+  user-select: none;
 }
 
 img {

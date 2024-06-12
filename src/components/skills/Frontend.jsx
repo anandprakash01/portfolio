@@ -1,27 +1,25 @@
 import React from "react";
 
 const Frontend = () => {
-  const skillLang = [
-    {skill: "HTML", level: "Intermideate"},
-    {skill: "CSS", level: "Intermideate"},
-    {skill: "JavaScript", level: "Intermideate"},
-  ];
-
   const skillTech = [
-    {skill: "React", level: "Intermideate"},
-    {skill: "Tailwind CSS", level: "Intermideate"},
-    {skill: "Bootstrap", level: "Intermideate"},
-    {skill: "Github", level: "Intermideate"},
+    {skill: "React", level: "Intermidiate"},
+    {skill: "JavaScript", level: "Intermidiate"},
+    {skill: "HTML", level: "Intermidiate"},
+    {skill: "CSS", level: "Intermidiate"},
+    {skill: "Bootstrap", level: "Intermidiate"},
+    {skill: "Tailwind CSS", level: "Intermidiate"},
+    {skill: "Material UI", level: "Intermidiate"},
+    {skill: "Firebase", level: "Intermideate"},
   ];
 
   return (
     <div className="skills_content">
-      <h3 className="skills_title">Frontend developer</h3>
+      <h3 className="skills_title">Frontend</h3>
 
       <div className="skills_box">
-        <div className="skills_group">
-          {skillLang.map((item, index) => {
-            return (
+        {skillTech.map((item, index) => {
+          return (
+            <div className="skills_group">
               <div className="skills_data" key={index}>
                 <i className="bx bxs-badge-check"></i>
                 <div>
@@ -29,23 +27,9 @@ const Frontend = () => {
                   <span className="skills_level">{item.level}</span>
                 </div>
               </div>
-            );
-          })}
-        </div>
-
-        <div className="skills_group">
-          {skillTech.map((item, index) => {
-            return (
-              <div className="skills_data" key={index}>
-                <i className="bx bxs-badge-check"></i>
-                <div>
-                  <h3 className="skills_name">{item.skill}</h3>
-                  <span className="skills_level">{item.level}</span>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

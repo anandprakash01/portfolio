@@ -56,9 +56,9 @@ const Data = () => {
             ></path>
           </svg>
         </h1>
-        <h3 className="home_subtitle">Frontend Developer</h3>
+        <h3 className="home_subtitle">Full Stack Developer</h3>
         <p className="home_description">
-          Hello, I'm a frontend developer who loves creating stunning and functional web
+          Hello, I'm a full stack developer who loves creating stunning and functional web
           apps with React.js. I have built responsive, interactive, and user-friendly
           websites.
         </p>

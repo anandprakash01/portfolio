@@ -48,21 +48,21 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact_card">
+            {/* <div className="contact_card">
               <i className="bx bxl-whatsapp contact_card-icon"></i>
 
               <h3 className="contact_card-title">Whatsapp</h3>
-              <span className="contact_card-data">+91 7047867712</span>
+              <span className="contact_card-data">Mobile No</span>
 
               <a
                 href="
-https://wa.me/7047867712?text=Hi,%20I’m%20looking%20for%20a%20website%20developer%20for%20my%20new%20business.%20I%20love%20your%20portfolio%20and%20style,%20and%20I%20would%20like%20to%20know%20if%20you%20are%20available.%20Could%20you%20also%20give%20me%20a%20quote%20for%20your%20services%20?%20I%20appreciate%20your%20response."
+https://wa.me/<MobileNo>?text=Hi,%20I’m%20looking%20for%20a%20website%20developer%20for%20my%20new%20business.%20I%20love%20your%20portfolio%20and%20style,%20and%20I%20would%20like%20to%20know%20if%20you%20are%20available.%20Could%20you%20also%20give%20me%20a%20quote%20for%20your%20services%20?%20I%20appreciate%20your%20response."
                 className="contact_button"
                 target="_blank"
               >
                 Write me <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
-            </div>
+            </div> */}
 
             <div className="contact_card">
               <i className="bx bxl-linkedin contact_card-icon"></i>

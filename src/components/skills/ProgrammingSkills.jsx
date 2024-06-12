@@ -5,6 +5,7 @@ const ProgrammingSkills = () => {
     {skill: "Java", level: "Intermideate"},
     {skill: "DSA", level: "Intermideate"},
     {skill: "OOPs", level: "Intermideate"},
+    {skill: "GitHub", level: "Intermideate"},
   ];
 
   return (

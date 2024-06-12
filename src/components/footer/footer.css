@@ -9,6 +9,7 @@
 
 .footer_title {
   font-family: var(--logo-font);
+  color: var(--theme-yellow-color);
 }
 
 .footer_title,

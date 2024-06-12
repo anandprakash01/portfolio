@@ -11,15 +11,20 @@ const WorkItems = ({item}) => {
           </a>
         </div>
       </div>
-      <h3 className="work_title">{item.title}</h3>
-      <div className="work_description">{item.description}</div>
 
-      <a href={item.link} className="work_button" target="_blank">
-        Live demo <i className="bx bx-right-arrow-alt work_button-icon"></i>
-      </a>
-      <a href={item.github} className="work_button" target="_blank">
-        Github Code <i className="bx bx-right-arrow-alt work_button-icon"></i>
-      </a>
+      <h3 className="work_title">{item.title}</h3>
+
+      <div className="work_details">
+        <div className="work_description">{item.description}</div>
+        <div>
+          <a href={item.link} className="work_button" target="_blank">
+            Live demo <i className="bx bx-right-arrow-alt work_button-icon"></i>
+          </a>
+          <a href={item.github} className="work_button" target="_blank">
+            Github Code <i className="bx bx-right-arrow-alt work_button-icon"></i>
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

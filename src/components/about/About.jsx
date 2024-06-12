@@ -22,9 +22,9 @@ const About = () => {
           <Info />
 
           <p className="about_description">
-            I am Anand Prakash, a Frontend Web Developer. I enjoy learning new skills and
-            exploring new challenges in the web development field. I'm always open to new
-            opportunities and collaborations.
+            I am Anand Prakash, a Full Stack Web Developer. I enjoy learning new skills
+            and exploring new challenges in the web development field. I'm always open to
+            new opportunities and collaborations.
           </p>
 
           <a download="" href={CV} className="button button-flex">
