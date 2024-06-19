@@ -2,6 +2,7 @@ import amazon_clone from "../../assets/amazon_clone.png";
 import fingertip_movies from "../../assets/fingertip_movies.png";
 import photography from "../../assets/photography.png";
 import travelite from "../../assets/travelite.png";
+import stay_swift from "../../assets/staySwift";
 
 export const projectData = [
   {
@@ -16,7 +17,7 @@ export const projectData = [
   },
   {
     id: 2,
-    image: "stay_swift",
+    image: stay_swift,
     title: "Stay Swift Hotels",
     category: "website",
     github: "https://github.com/anandprakash01/stay-swift-hotels",
