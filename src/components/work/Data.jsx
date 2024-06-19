@@ -2,7 +2,7 @@ import amazon_clone from "../../assets/amazon_clone.png";
 import fingertip_movies from "../../assets/fingertip_movies.png";
 import photography from "../../assets/photography.png";
 import travelite from "../../assets/travelite.png";
-import stay_swift from "../../assets/staySwift";
+import stay_swift from "../../assets/staySwift.png";
 
 export const projectData = [
   {
