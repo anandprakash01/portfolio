@@ -3,22 +3,30 @@ import fingertip_movies from "../../assets/fingertip_movies.png";
 import photography from "../../assets/photography.png";
 import travelite from "../../assets/travelite.png";
 import stay_swift from "../../assets/staySwift.png";
+import talk_to_me from "../../assets/talk-to-me.png";
 
 export const projectData = [
   {
-    id: 1,
+    image: talk_to_me,
+    title: "Talk to Me – A Real-Time Chat application (Full-stack)",
+    category: "website",
+    github: "https://github.com/anandprakash01/talk-to-me",
+    link: "https://talk-to-mee.netlify.app/",
+    description:
+      "A real-time chat application inspired by popular messaging platforms. It supports notification, individual and group conversations, with real-time updates using Socket IO.",
+  },
+  {
     image: amazon_clone,
-    title: "Amazon Clone",
+    title: "Amazon Clone – E-commerce platform (Frontend)",
     category: "website",
     github: "https://github.com/anandprakash01/amazon-clone",
     link: "https://amazonclonewebapp.netlify.app/",
     description:
-      "Webapp replicating the functionalities and user interface of Amazon. Utilized modern front-end framework React + vite.",
+      "Replicated core functionalities and user interface of Amazon, using modern front-end framework React for a dynamic user experience and smooth state management using Redux.",
   },
   {
-    id: 2,
     image: stay_swift,
-    title: "Stay Swift Hotels",
+    title: "Stay Swift Hotels (Frontend)",
     category: "website",
     github: "https://github.com/anandprakash01/stay-swift-hotels",
     link: "https://stay-swift-anand.netlify.app/",
@@ -27,9 +35,8 @@ export const projectData = [
   },
 
   {
-    id: 3,
     image: fingertip_movies,
-    title: "Fingertip Movies",
+    title: "Fingertip Movies- Movie booking application (Frontend)",
     category: "website",
     github: "https://github.com/anandprakash01/Fingertip-Movies",
     link: "https://fingertip-movies.netlify.app/",
@@ -38,7 +45,6 @@ export const projectData = [
   },
 
   {
-    id: 4,
     image: travelite,
     title: "Travelite",
     category: "website",
@@ -48,7 +54,6 @@ export const projectData = [
       "Travelite is a project that aims to inspire and empower travel enthusiasts to explore the world with ease and convenience. Travelite can help you find and book the best travel deals.",
   },
   {
-    id: 5,
     image: photography,
     title: "Photography Site",
     category: "website",

@@ -2,10 +2,11 @@ import React from "react";
 
 const Backend = () => {
   const skillTech = [
-    {skill: "Node js", level: "Intermidiate"},
-    {skill: "express js", level: "Intermidiate"},
-    {skill: "RESTful API", level: "Intermidiate"},
-    {skill: "Mongo DB", level: "Intermidiate"},
+    {skill: "Node js", level: "Intermidiate", percent: 85},
+    {skill: "express js", level: "Intermidiate", percent: 80},
+    {skill: "RESTful API", level: "Intermidiate", percent: 75},
+    {skill: "Mongo DB", level: "Intermidiate", percent: 75},
+    {skill: "Socket IO", level: "Intermidiate", percent: 82},
   ];
 
   return (
@@ -15,12 +16,22 @@ const Backend = () => {
       <div className="skills_box">
         {skillTech.map((item, index) => {
           return (
-            <div className="skills_group">
-              <div className="skills_data" key={index}>
+            <div key={index} className="skills_group">
+              <div className="skills_data">
                 <i className="bx bxs-badge-check"></i>
                 <div>
                   <h3 className="skills_name">{item.skill}</h3>
-                  <span className="skills_level">{item.level}</span>
+                  <div className="skill-bar">
+                    <div
+                      className="skill-bar-percent"
+                      style={{
+                        width: `${item.percent}%`,
+                        "background-color": `${
+                          item.percent > 50 ? "" : "var(--theme-yellow-color)"
+                        }`,
+                      }}
+                    ></div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -51,6 +51,22 @@
   font-size: var(--tiny-font-size);
 }
 
+.skill-bar {
+  width: 6rem;
+  height: 7px;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+  background-color: rgb(190, 190, 190);
+}
+.skill-bar-percent {
+  height: 100%;
+  background-color: rgb(2, 112, 2);
+  /* background-image: linear-gradient(to right, red, yellow, green); */
+}
+
 /* ------------------BreakPoints----------------- */
 /* For large devices */
 @media screen and (max-width: 992px) {
