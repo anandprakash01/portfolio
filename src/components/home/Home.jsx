@@ -15,7 +15,7 @@ const Home = () => {
             <div className="home_img"></div>
             <Data />
           </div>
-          <ScrollDown />
+          {/* <ScrollDown /> */}
         </div>
       </section>
     </>

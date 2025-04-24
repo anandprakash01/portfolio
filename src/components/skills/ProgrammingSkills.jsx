@@ -1,4 +1,6 @@
 import React from "react";
+import Skills from "./Skills";
+import SkillsBar from "./SkillsBar";
 
 const ProgrammingSkills = () => {
   const skillset = [
@@ -22,17 +24,8 @@ const ProgrammingSkills = () => {
                   <h3 className="skills_name">{item.skill}</h3>
 
                   {/* <span className="skills_level">{item.level}</span> */}
-                  <div className="skill-bar">
-                    <div
-                      className="skill-bar-percent"
-                      style={{
-                        width: `${item.percent}%`,
-                        "background-color": `${
-                          item.percent > 50 ? "" : "var(--theme-yellow-color)"
-                        }`,
-                      }}
-                    ></div>
-                  </div>
+
+                  <SkillsBar item={item} />
                 </div>
               </div>
             </div>

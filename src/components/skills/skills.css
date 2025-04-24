@@ -51,7 +51,7 @@
   font-size: var(--tiny-font-size);
 }
 
-.skill-bar {
+.skills-bar {
   width: 6rem;
   height: 7px;
   border-radius: 3px;
@@ -61,10 +61,12 @@
   margin-bottom: 1rem;
   background-color: rgb(190, 190, 190);
 }
-.skill-bar-percent {
+.skills-bar-percent {
+  width: 0%;
   height: 100%;
   background-color: rgb(2, 112, 2);
   /* background-image: linear-gradient(to right, red, yellow, green); */
+  transition: width 0.5s ease-in-out;
 }
 
 /* ------------------BreakPoints----------------- */

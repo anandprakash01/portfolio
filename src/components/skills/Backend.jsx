@@ -1,4 +1,5 @@
 import React from "react";
+import SkillsBar from "./SkillsBar";
 
 const Backend = () => {
   const skillTech = [
@@ -21,17 +22,7 @@ const Backend = () => {
                 <i className="bx bxs-badge-check"></i>
                 <div>
                   <h3 className="skills_name">{item.skill}</h3>
-                  <div className="skill-bar">
-                    <div
-                      className="skill-bar-percent"
-                      style={{
-                        width: `${item.percent}%`,
-                        "background-color": `${
-                          item.percent > 50 ? "" : "var(--theme-yellow-color)"
-                        }`,
-                      }}
-                    ></div>
-                  </div>
+                  <SkillsBar item={item} />
                 </div>
               </div>
             </div>
