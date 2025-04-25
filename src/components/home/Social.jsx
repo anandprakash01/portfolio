@@ -11,6 +11,7 @@ const Social = () => {
           href="https://www.linkedin.com/in/anandprakash21/"
           className="home_social-icon"
           target={"_blank"}
+          rel="noreferrer"
         >
           <i className="uil uil-linkedin-alt"></i>
         </a>
@@ -19,6 +20,7 @@ const Social = () => {
           href="https://github.com/anandprakash01"
           className="home_social-icon"
           target={"_blank"}
+          rel="noreferrer"
         >
           <i className="uil uil-github-alt"></i>
         </a>
@@ -27,6 +29,7 @@ const Social = () => {
           href="https://www.instagram.com/hr_anand/"
           className="home_social-icon"
           target={"_blank"}
+          rel="noreferrer"
         >
           <i className="uil uil-instagram"></i>
         </a>
@@ -35,6 +38,7 @@ const Social = () => {
           href="https://leetcode.com/u/anand_prakash01/"
           className="home_social-icon"
           target={"_blank"}
+          rel="noreferrer"
         >
           <img src={leetcodeLogo} />
         </a>
