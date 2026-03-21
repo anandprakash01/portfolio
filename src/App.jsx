@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./App.css";
 
 import Header from "./components/header/Header";
@@ -13,22 +13,22 @@ import ScrollUp from "./components/scrollUp/ScrollUp";
 import Work from "./components/work/Work";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <main className="main">
-        <Home />
-        <About />
-        <Skills />
-        <Work />
-        <Qualification />
-        <Services />
-        <Contact />
-      </main>
-      <Footer />
-      <ScrollUp />
-    </>
-  );
+    return (
+        <>
+            <Header />
+            <main className="main">
+                <Home />
+                <About />
+                <Skills />
+                <Work />
+                <Qualification />
+                <Services />
+                <Contact />
+            </main>
+            <Footer />
+            <ScrollUp />
+        </>
+    );
 }
 
 export default App;
