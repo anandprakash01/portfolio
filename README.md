@@ -96,7 +96,7 @@ Here are some of my featured projects:
 
 ### 3. Event Management System – Enterprise API
 
-- **Tech Stack**: Node.js, REST API
+- **Tech Stack**: Node.js, Express.js, MongoDB, Zod, Bcryptjs
 - **Features**: Scalable backend, cluster mode, feature-based architecture
 - [GitHub](https://github.com/anandprakash01/event-management-system)
 
