@@ -1,17 +1,15 @@
-# Anand Prakash - Portfolio
-
-**[🟢 View Live Demo](https://anand-portffolio.netlify.app/)**
+# Anand Prakash - Portfolio **[[Live Demo](https://anand-portffolio.netlify.app/)]**
 
 ![Portfolio Preview](./src/assets/portfolio_img.png)
 
 ---
 
 <p align="center">
-  <a href="#about">About</a> •
-  <a href="#features">Features</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#projects">Projects</a> •
+  <a href="#about">About</a> &nbsp;•&nbsp
+  <a href="#features">Features</a> &nbsp;•&nbsp
+  <a href="#tech-stack">Tech Stack</a> &nbsp;•&nbsp
+  <a href="#getting-started">Getting Started</a> &nbsp;•&nbsp
+  <a href="#projects">Projects</a> &nbsp;•&nbsp
   <a href="#contact">Contact</a>
 </p>
 
