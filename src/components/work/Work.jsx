@@ -72,14 +72,17 @@ const Work = () => {
                 <div className="work_details">
                   <div className="work_description">{item.description}</div>
                   <div>
-                    <a
-                      href={item.link}
-                      className="work_button"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Live demo <i className="bx bx-right-arrow-alt work_button-icon"></i>
-                    </a>
+                    {item.link && (
+                      <a
+                        href={item.link}
+                        className="work_button"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Live demo{" "}
+                        <i className="bx bx-right-arrow-alt work_button-icon"></i>
+                      </a>
+                    )}
                     <a
                       href={item.github}
                       className="work_button"

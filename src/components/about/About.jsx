@@ -1,11 +1,9 @@
-import React from "react";
-
 import "./about.css";
 
 // import AboutImg from "../../assets/about.jpg";
 import AboutImg from "../../assets/anand_profile2.jpg";
 
-import CV from "../../assets/anandPrakash_resume.pdf";
+import CV from "../../assets/Anand-Prakash-resume.pdf";
 
 import Info from "./Info";
 
