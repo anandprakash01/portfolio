@@ -56,12 +56,12 @@ const Work = () => {
                   <img src={item.image} alt="" className="work_img-pic" />
                   <div className="work_img-hover-content">
                     <a
-                      href={item.link}
+                      href={item.link || item.github}
                       className="work_button"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      View Project{" "}
+                      {item.link ? "View Project" : "View Repository"}
                       <i className="bx bx-right-arrow-alt work_button-icon"></i>
                     </a>
                   </div>
